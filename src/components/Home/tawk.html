@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+<input type="file" name="" value="" accept="image/*, video/*">
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5b35aeb3d0b5a54796824973/1ch4tvgst';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+var url_string = window.location.href;
+var url = new URL(url_string);
+Tawk_API.visitor = {
+    name  : url.searchParams.get("name"),
+    email : url.searchParams.get("email")
+};
+Tawk_API.onLoad = function(){
+
+    var pageStatus = Tawk_API.getStatus();
+    console.log(pageStatus);
+    if(pageStatus === 'online'){
+      Tawk_API.maximize();
+    }else if(pageStatus === 'away'){
+        Tawk_API.maximize();
+    }else{
+        Tawk_API.maximize();
+    }
+};
+Tawk_API.onStatusChange = function(status){
+  var pageStatus = Tawk_API.getStatus();
+  console.log(pageStatus);
+  if(pageStatus === 'online'){
+    Tawk_API.maximize();
+  }else if(pageStatus === 'away'){
+      Tawk_API.maximize();
+  }else{
+      Tawk_API.maximize();
+  }
+};
+</script>
+<!--End of Tawk.to Script-->
+    </body>
+</html>

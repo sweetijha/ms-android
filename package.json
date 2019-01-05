@@ -1,0 +1,44 @@
+{
+    "name": "MyShoperoo",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "jest-expo": "~27.0.0",
+        "react-native-scripts": "^2.0.1",
+        "react-test-renderer": "16.3.1"
+    },
+    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "scripts": {
+        "start": "react-native-scripts start",
+        "eject": "react-native-scripts eject",
+        "android": "react-native-scripts android",
+        "ios": "react-native-scripts ios",
+        "test": "jest"
+    },
+    "jest": {
+        "preset": "jest-expo"
+    },
+    "dependencies": {
+        "expo": "^27.0.1",
+        "new-component": "^1.0.1",
+        "react": "16.3.1",
+        "react-native": "~0.55.2",
+        "react-native-back-android": "^3.1.1",
+        "react-native-calendar-select": "^0.1.2",
+        "react-native-calendars": "^1.20.0",
+        "react-native-datepicker": "^1.7.2",
+        "react-native-easy-grid": "^0.2.0",
+        "react-native-easy-toast": "^1.1.0",
+        "react-native-elements": "^0.19.1",
+        "react-native-floating-labels": "^1.1.8",
+        "react-native-keyboard-aware-scroll-view": "^0.7.2",
+        "react-native-keyboard-aware-scrollview": "^2.0.0",
+        "react-native-modal": "^6.5.0",
+        "react-native-popup-dialog": "^0.15.0",
+        "react-native-textarea": "^1.0.2",
+        "react-native-vector-icons": "^5.0.0",
+        "react-native-webview-android": "^1.1.17",
+        "react-native-webview-file-upload-android": "^1.1.2",
+        "react-navigation": "^2.16.0"
+    }
+}
